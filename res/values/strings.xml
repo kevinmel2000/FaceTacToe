@@ -1,0 +1,87 @@
+<resources>
+
+    <string name="app_name">Face Tac Toe</string>
+    <string name="title_activity_main">Face Tac Toe</string>
+
+    <!-- preferences -->
+    <string name="settings_difficulty_title">Difficulty settings</string>
+    <string name="settings_difficulty_desc">Set the level of the artificial intelligence</string>
+    <string name="settings_image_default_title">Use default picture</string>
+    <string name="settings_color_title">Use only colors</string>
+    <string name="settings_image_title">Use custom picture</string>
+    <string name="settings_image_desc">Set the picture you want to play with.</string>
+    
+    <string name="settings_button_image_key">button_custom_picture</string>
+    <string name="settings_image_key">custom_picture</string>
+    <string name="settings_color_key">use_color</string>
+    <string name="settings_difficulty_key">difficulty_value</string>
+    <string name="settings_default_key">checkbox_default</string>
+
+    <string-array name="array_difficulty">
+        <item>hard</item>
+        <item>medium</item>
+        <item>easy</item>
+    </string-array>
+    <string-array name="array_difficulty_values">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- main -->
+    <string name="button_play_content">Play</string>
+    <string name="button_message_content">Inform a friend</string>
+    <string name="button_about_content">About</string>
+    <string name="button_preferences_content">Open preferences</string>
+
+    <!-- about -->
+    <string name="title_about_page_content">About Tic Tac Toe</string>
+    <string name="button_about_page_content">See this page in your web browser</string>
+
+    <!-- game -->
+    <string name="button_against_computer">Against Computer</string>
+    <string name="button_against_human">Against Human</string>
+    <string name="to_play">to play</string>
+
+    <!-- message -->
+    <string name="textview_account_hint">account</string>
+    <string name="textview_password_hint">password</string>
+    <string name="textview_to_hint">to</string>
+    <string name="textview_to_message">message</string>
+    <string name="email_subject">A really nice game</string>
+    <string name="button_send">send</string>
+    <string name="button_email_view_switcher">Email</string>
+    <string name="button_sms_view_switcher">SMS</string>
+    <string name="title_email_sender"><i>Send by email</i></string>
+    <string name="title_sms_sender"><i>Send by SMS</i></string>
+    
+    <!-- custom picture -->
+    <string name="title_custom_picture_content">Set custom picture</string>
+    <string name="button_from_camera_content">From camera</string>
+    <string name="button_from_library_content">From library</string>
+    <string name="image_view_description">custom image</string>
+
+    <!-- win screen -->
+    <string name="title_endgame">End game</string>
+    <string name="label_win">win</string>
+    <string name="label_equal">Nobody win</string>
+    <string name="button_play_again_content">Play again</string>
+    <string name="button_back_home_content">Back home</string>
+    <string name="first_player">Player 1</string>
+    <string name="second_player">Player 2</string>
+    <string name="computer_player">Computer</string>
+    <string name="owner_player">You</string>
+    
+    <!-- loader -->
+    <string name="loader_title">Loading&#8230;</string>
+    <string name="loader_message">Loading application, please wait&#8230;</string>
+
+    <!-- informations -->
+    <string name="error_message_content">The message is empty</string>
+    <string name="error_email_not_valid">Email not valid</string>
+    <string name="error_email">Email send failed</string>
+    <string name="error_sms">SMS send failed</string>
+    <string name="success_sms">SMS sent</string>
+    <string name="choose_message">Choose an email client</string>
+
+</resources>

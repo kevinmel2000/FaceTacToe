@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25" >
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="@string/button_play_content"
+            android:layout_gravity="center_vertical" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25" >
+
+        <Button
+            android:id="@+id/button_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="@string/button_message_content"
+            android:layout_gravity="center_vertical" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25" >
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="@string/button_about_content"
+            android:layout_gravity="center_vertical" />
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25" >
+
+        <Button
+            android:id="@+id/button_preferences"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_custom"
+            android:text="@string/button_preferences_content"
+            android:layout_gravity="center_vertical" />
+    </FrameLayout>
+
+</LinearLayout>

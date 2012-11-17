@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings_difficulty_title" >
+        <ListPreference
+            android:key="@string/settings_difficulty_key"
+            android:defaultValue="2"
+            android:entries="@array/array_difficulty"
+            android:entryValues="@array/array_difficulty_values"
+            android:summary="@string/settings_difficulty_desc"
+            android:title="@string/settings_difficulty_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_image_title" >
+        <CheckBoxPreference
+            android:key="@string/settings_default_key"
+            android:defaultValue="true"
+            android:title="@string/settings_image_default_title" />
+        
+        <CheckBoxPreference
+            android:key="@string/settings_color_key"
+            android:defaultValue="false"
+            android:title="@string/settings_color_title" />
+
+        <Preference
+            android:key="@string/settings_button_image_key"
+            android:title="@string/settings_image_title"
+            android:summary="@string/settings_image_desc" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
