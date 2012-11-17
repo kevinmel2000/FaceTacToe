@@ -10,10 +10,7 @@
 	* Medium : randomly choose to randomly fill the grid or try to win and stop the player.
 	* Hard : try to win and stop the player.
 
-
-* Use of OpenGL ES and particle effect thanks to the library AndEngine.
-	* The use of OpenGL in such a game is not really justified, this is just a personal goal to see how to develop OpenGL ES applications in Java for Android.
-
+* Use of OpenGL ES and particle effect thanks to the library AndEngine. (The use of OpenGL in such a game is not really justified, this is just a personal goal to see how to develop OpenGL ES applications in Java for Android.)
 
 * Use custom picture from the camera of the device library.
 
