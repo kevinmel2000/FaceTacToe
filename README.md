@@ -3,7 +3,7 @@
 
 ##Android student project at Les Gobelins school
 
-* Tic Tac Toe Game written in Java for Android smartphone and tablet
+* Tic Tac Toe Game written in Java for Android smartphones and tablets
 
 * Basic Artificial Intelligence with three levels :
 	* Easy : randomly fill the grid.
