@@ -1,7 +1,7 @@
 #FaceTacToe
 ======================
 
-##Android workshop at Les Gobelins school - Student project
+##Android student project at Les Gobelins school
 
 * Tic Tac Toe Game written in Java for Android smartphone and tablet
 
